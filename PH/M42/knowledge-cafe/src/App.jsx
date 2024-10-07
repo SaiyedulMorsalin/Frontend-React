@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Blogs></Blogs>
+      <div className='container mx-auto' >
+        <Header></Header>
+        <Blogs></Blogs>
+      </div>
     </>
   )
 }
