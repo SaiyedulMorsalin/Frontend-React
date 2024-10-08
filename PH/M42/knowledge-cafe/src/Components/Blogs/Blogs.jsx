@@ -11,8 +11,10 @@ const Blogs = () => {
     }, [])
 
     return (
-        <div>
-            <Blog key={blogs.publishedAt} blogs={blogs}></Blog>
+        <div className="">
+            {
+                blogs.map((blog, idx) => <Blog blog={blog} key={idx}></Blog>)
+            }
         </div>
     );
 };
