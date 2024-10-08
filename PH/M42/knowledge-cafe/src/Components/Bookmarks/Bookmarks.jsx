@@ -1,5 +1,5 @@
 
-
+import Bookmark from "../Bookmark/Bookmark";
 
 const Bookmarks = () => {
     return (
@@ -9,10 +9,7 @@ const Bookmarks = () => {
 
             </div>
             <div className="border-2 m-5 p-5 col-span-4">
-                <h1>This is bookmarked Blogs...</h1>
-                {
-
-                }
+                <Bookmark ></Bookmark>
             </div>
         </>
     );
