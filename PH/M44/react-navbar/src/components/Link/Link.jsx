@@ -1,11 +1,15 @@
 import PropTypes from "prop-types";
 
 function Link({ route }) {
-    const { name } = route;
+    const { name, path } = route;
 
     return (
         <>
-            <li>{name}</li>
+
+
+            <li><a href={path}>{name}</a></li>
+
+
         </>
     );
 }
