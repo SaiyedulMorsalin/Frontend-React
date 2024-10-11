@@ -19,21 +19,23 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className="text-3xl font-semibold lg:hidden" onClick={() => setOpen(!open)}>
+            <nav className="bg-yellow-700 p-6">
+                <div className="text-3xl font-semibold lg:hidden" onClick={() => setOpen(!open)}>
 
 
 
-                {
-                    open === true ? <FaXmark onClick={handleMenuClik}></FaXmark> : <HiOutlineMenuAlt1 onClick={handleMenuClik} />
-                }
-            </div>
-            <ul className="lg:flex lg:gap-8">
-                {
-                    routes.map((route, idx) => (
-                        <Link key={idx} route={route} />
-                    ))
-                }
-            </ul>
+                    {
+                        open === true ? <FaXmark onClick={handleMenuClik}></FaXmark> : <HiOutlineMenuAlt1 onClick={handleMenuClik} />
+                    }
+                </div>
+                <ul className={`lg:flex duration-1000 lg:gap-12  absolute lg:static ${open ? '  top-16 ' : '-top-60 hidden'}bg-yellow-300`}>
+                    {
+                        routes.map((route, idx) => (
+                            <Link key={idx} route={route} />
+                        ))
+                    }
+                </ul>
+            </nav>
         </>
     );
 };

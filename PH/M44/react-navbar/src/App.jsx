@@ -1,7 +1,8 @@
 
 import './App.css'
-import DaisyNav from './components/DaisyNav/DaisyNav'
+
 import Navbar from './components/Navbar/Navbar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
 
@@ -11,8 +12,11 @@ function App() {
       <div className='container mx-auto'>
 
 
-        <DaisyNav></DaisyNav></div>
-      <Navbar></Navbar>
+
+        <Navbar></Navbar>
+        <PriceOptions></PriceOptions>
+
+      </div>
     </>
   )
 }

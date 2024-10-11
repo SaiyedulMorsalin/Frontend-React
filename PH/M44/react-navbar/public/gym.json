@@ -1,0 +1,68 @@
+[
+    {
+        "memberships": [
+            {
+                "membership_id": 101,
+                "membership_type": "Basic",
+                "price": 100,
+                "features": {
+                    "amenities": [
+                        "Cardio Machines",
+                        "Free Weights",
+                        "Locker Rooms"
+                    ],
+                    "access_hours": "6:00 AM - 9:00 PM",
+                    "group_classes": false,
+                    "personal_training": false,
+                    "guest_passes": 0
+                }
+            },
+            {
+                "membership_id": 102,
+                "membership_type": "Standard",
+                "price": 150,
+                "features": {
+                    "amenities": [
+                        "Cardio Machines",
+                        "Free Weights",
+                        "Locker Rooms",
+                        "Sauna",
+                        "Swimming Pool"
+                    ],
+                    "access_hours": "24/7 Access",
+                    "group_classes": true,
+                    "personal_training": false,
+                    "guest_passes": 2
+                }
+            },
+            {
+                "membership_id": 103,
+                "membership_type": "Premium",
+                "price": 200,
+                "features": {
+                    "amenities": [
+                        "Cardio Machines",
+                        "Free Weights",
+                        "Locker Rooms",
+                        "Sauna",
+                        "Swimming Pool",
+                        "Indoor Track"
+                    ],
+                    "access_hours": "24/7 Access",
+                    "group_classes": true,
+                    "personal_training": true,
+                    "guest_passes": 5
+                }
+            }
+        ],
+        "hours_of_operation": {
+            "monday": "6:00 AM - 9:00 PM",
+            "tuesday": "6:00 AM - 9:00 PM",
+            "wednesday": "6:00 AM - 9:00 PM",
+            "thursday": "6:00 AM - 9:00 PM",
+            "friday": "6:00 AM - 9:00 PM",
+            "saturday": "8:00 AM - 6:00 PM",
+            "sunday": "8:00 AM - 6:00 PM"
+        }
+    }
+]

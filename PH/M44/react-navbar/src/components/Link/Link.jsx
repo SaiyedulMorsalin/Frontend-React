@@ -7,7 +7,7 @@ function Link({ route }) {
         <>
 
 
-            <li><a href={path}>{name}</a></li>
+            <li className="hover:cursor-pointer hover:font-semibold"><a href={path}>{name}</a></li>
 
 
         </>
