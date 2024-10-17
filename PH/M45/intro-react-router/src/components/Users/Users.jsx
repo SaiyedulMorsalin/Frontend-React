@@ -1,8 +1,15 @@
+import { useLoaderData } from "react-router-dom";
+import User from "../User/User";
+
 const Users = () => {
+    const users = useLoaderData()
+
     return (
         <>
-            <div>
-                <h1>This users page.....</h1>
+            <div className="grid grid-cols-3 gap-5">
+                {
+                    users.map(user => <User user={user} key={user.id}></User>)
+                }
             </div>
         </>
     )
