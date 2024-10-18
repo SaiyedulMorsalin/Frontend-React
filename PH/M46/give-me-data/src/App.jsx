@@ -1,3 +1,4 @@
+import LoginForm from "./components/LoginForm/LoginForm"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
           Hello World!!!
         </h1>
       </div>
+      <LoginForm></LoginForm>
     </>
   )
 }
