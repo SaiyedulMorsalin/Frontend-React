@@ -8,14 +8,15 @@ const Header = () => {
                 <div className="navbar bg-base-100">
                     <div className="flex-1">
                         <a href="/" className="btn btn-ghost text-xl">daisyUI</a>
-                        <a href="/" className="btn btn-ghost text-xl">Home</a>
+                        {/* <a href="/" className="btn btn-ghost text-xl">Home</a>
                         <a href="/about" className="btn btn-ghost text-xl">About</a>
                         <a href="/contact" className="btn btn-ghost text-xl">Contact</a>
-                        <a href="/users" className="btn btn-ghost text-xl">Users</a>
+                        <a href="/users" className="btn btn-ghost text-xl">Users</a> */}
                         <h1>Link-></h1>
                         <Link className="btn btn-ghost text-xl" to={"/contact"}>Contact</Link>
                         <Link className="btn btn-ghost text-xl" to={"/about"}>About Us</Link>
                         <Link className="btn btn-ghost text-xl" to={"/users"}>Users</Link>
+                        <Link className="btn btn-ghost text-xl" to={"/posts"}>Posts</Link>
                     </div>
                     <div className="flex-none">
                         <div className="dropdown dropdown-end">

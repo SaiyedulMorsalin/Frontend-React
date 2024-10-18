@@ -10,7 +10,7 @@ const User = ({ user }) => {
                 <h1>Name: {name}</h1>
                 <p>Email: {email}</p>
                 <p>Phone: {phone}</p>
-                <Link to={`user/${id}`} className="border hover:bg-red-200">Show Details</Link>
+                <Link to={`/user/${id}`} className="border hover:bg-red-200">Show Details</Link>
             </div>
         </>
     )
