@@ -1,0 +1,198 @@
+[
+    {
+        "id": "101",
+        "title": "Software Engineer",
+        "description": "Develop and maintain web applications using modern frameworks.",
+        "location": "New York, USA",
+        "salary": "$85,000 - $105,000",
+        "onsite": true,
+        "phone": "+1-555-1234",
+        "email": "hr@techcompany.com",
+        "company_name": "Tech Company",
+        "experience": "2+ years of experience in software development",
+        "educational_qualification": "Bachelor's degree in Computer Science or related field",
+        "responsibility": [
+            "Write clean and efficient code",
+            "Collaborate with cross-functional teams",
+            "Participate in code reviews"
+        ],
+        "other_details": "Full-time position with health benefits and flexible hours",
+        "image": "../src/assets/logo/google.png"
+    },
+    {
+        "id": "102",
+        "title": "Data Analyst",
+        "description": "Analyze and interpret data to provide insights for decision-making.",
+        "location": "San Francisco, USA",
+        "salary": "$70,000 - $90,000",
+        "onsite": false,
+        "phone": "+1-555-5678",
+        "email": "careers@datafirm.com",
+        "company_name": "Data Firm",
+        "experience": "3+ years of data analysis experience",
+        "educational_qualification": "Bachelor's degree in Data Science, Statistics, or related field",
+        "responsibility": [
+            "Collect, analyze, and report data trends",
+            "Create data visualizations",
+            "Work with stakeholders to understand their data needs"
+        ],
+        "other_details": "Remote work available with a flexible schedule",
+        "image": "../src/assets/logo/airbnb.png"
+    },
+    {
+        "id": "103",
+        "title": "Marketing Specialist",
+        "description": "Develop and execute marketing campaigns to drive brand awareness.",
+        "location": "Chicago, USA",
+        "salary": "$55,000 - $70,000",
+        "onsite": true,
+        "phone": "+1-555-8765",
+        "email": "jobs@marketinghub.com",
+        "company_name": "Marketing Hub",
+        "experience": "2+ years in digital marketing",
+        "educational_qualification": "Bachelor's degree in Marketing or related field",
+        "responsibility": [
+            "Plan and implement digital marketing strategies",
+            "Monitor and analyze campaign performance",
+            "Collaborate with creative teams for content creation"
+        ],
+        "other_details": "Includes performance-based bonuses",
+        "image": "../src/assets/logo/netflix.png"
+    },
+    {
+        "id": "104",
+        "title": "Graphic Designer",
+        "description": "Create visually compelling designs for digital and print media.",
+        "location": "Austin, USA",
+        "salary": "$50,000 - $65,000",
+        "onsite": true,
+        "phone": "+1-555-4321",
+        "email": "design@creativeagency.com",
+        "company_name": "Creative Agency",
+        "experience": "1+ year of graphic design experience",
+        "educational_qualification": "Degree or certification in Graphic Design",
+        "responsibility": [
+            "Design graphics for social media, websites, and print",
+            "Collaborate with marketing and creative teams",
+            "Ensure brand consistency across all designs"
+        ],
+        "other_details": "Portfolio required for application",
+        "image": "../src/assets/logo/tesla.png"
+    },
+    {
+        "id": "105",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data to assist in strategic decision-making.",
+        "location": "Miami, USA",
+        "salary": "$65,000 - $85,000",
+        "onsite": false,
+        "phone": "+1-555-6789",
+        "email": "finance@investmentfirm.com",
+        "company_name": "Investment Firm",
+        "experience": "2+ years of experience in financial analysis",
+        "educational_qualification": "Bachelor's degree in Finance or Economics",
+        "responsibility": [
+            "Prepare financial reports",
+            "Monitor financial markets and trends",
+            "Assist in budgeting and forecasting"
+        ],
+        "other_details": "Remote position with occasional travel required",
+        "image": "../src/assets/logo/google.png"
+    },
+    {
+        "id": "106",
+        "title": "Customer Support Specialist",
+        "description": "Provide exceptional customer service through phone and email.",
+        "location": "Los Angeles, USA",
+        "salary": "$40,000 - $50,000",
+        "onsite": false,
+        "phone": "+1-555-3456",
+        "email": "support@retailcompany.com",
+        "company_name": "Retail Company",
+        "experience": "1+ year in customer service",
+        "educational_qualification": "High school diploma or equivalent",
+        "responsibility": [
+            "Answer customer inquiries via phone and email",
+            "Resolve customer complaints and issues",
+            "Provide product and service information"
+        ],
+        "other_details": "Remote position with shift flexibility",
+        "image": "../src/assets/logo/airbnb.png"
+    },
+    {
+        "id": "107",
+        "title": "Sales Manager",
+        "description": "Lead and manage the sales team to achieve company targets.",
+        "location": "Boston, USA",
+        "salary": "$75,000 - $100,000",
+        "onsite": true,
+        "phone": "+1-555-6543",
+        "email": "careers@salescorp.com",
+        "company_name": "Sales Corp",
+        "experience": "5+ years of sales experience",
+        "educational_qualification": "Bachelor's degree in Business or related field",
+        "responsibility": [
+            "Develop sales strategies",
+            "Manage and mentor the sales team",
+            "Track sales performance and report results"
+        ],
+        "other_details": "Includes performance-based bonuses"
+    },
+    {
+        "id": "108",
+        "title": "HR Manager",
+        "description": "Oversee all human resource functions, including recruitment and employee relations.",
+        "location": "Seattle, USA",
+        "salary": "$80,000 - $95,000",
+        "onsite": true,
+        "phone": "+1-555-7654",
+        "email": "hr@globalenterprise.com",
+        "company_name": "Global Enterprise",
+        "experience": "3+ years of HR management experience",
+        "educational_qualification": "Bachelor's degree in Human Resources or related field",
+        "responsibility": [
+            "Manage recruitment and onboarding processes",
+            "Ensure compliance with labor laws",
+            "Handle employee relations and performance reviews"
+        ],
+        "other_details": "Full-time position with health and retirement benefits"
+    },
+    {
+        "id": "109",
+        "title": "Mechanical Engineer",
+        "description": "Design and develop mechanical systems and components.",
+        "location": "Houston, USA",
+        "salary": "$90,000 - $110,000",
+        "onsite": true,
+        "phone": "+1-555-8767",
+        "email": "engineering@manufacturingco.com",
+        "company_name": "Manufacturing Co.",
+        "experience": "4+ years of experience in mechanical engineering",
+        "educational_qualification": "Bachelor's degree in Mechanical Engineering",
+        "responsibility": [
+            "Design mechanical systems and components",
+            "Collaborate with other engineers and designers",
+            "Oversee product development and testing"
+        ],
+        "other_details": "Includes relocation assistance"
+    },
+    {
+        "id": "110",
+        "title": "Project Manager",
+        "description": "Plan and oversee projects to ensure they are completed on time and within budget.",
+        "location": "Denver, USA",
+        "salary": "$85,000 - $105,000",
+        "onsite": false,
+        "phone": "+1-555-9876",
+        "email": "projects@consultancygroup.com",
+        "company_name": "Consultancy Group",
+        "experience": "5+ years of project management experience",
+        "educational_qualification": "Bachelor's degree in Project Management or related field",
+        "responsibility": [
+            "Develop project plans and timelines",
+            "Coordinate with clients and team members",
+            "Monitor project progress and manage risks"
+        ],
+        "other_details": "Remote position with occasional travel required"
+    }
+]

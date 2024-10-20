@@ -1,0 +1,62 @@
+[
+    {
+        "id": "001",
+        "title": "Accounts",
+        "available_jobs": 5200,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "002",
+        "title": "Data Science",
+        "available_jobs": 3500,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "003",
+        "title": "Marketing",
+        "available_jobs": 2800,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "004",
+        "title": "Graphic Design",
+        "available_jobs": 1700,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "005",
+        "title": "Finance",
+        "available_jobs": 2100,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "006",
+        "title": "Customer Support",
+        "available_jobs": 4000,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "007",
+        "title": "Human Resources",
+        "available_jobs": 1200,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "008",
+        "title": "Sales",
+        "available_jobs": 3600,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "009",
+        "title": "Healthcare",
+        "available_jobs": 4500,
+        "image": "../src/assets/icons/accounts.png"
+    },
+    {
+        "id": "010",
+        "title": "Engineering",
+        "available_jobs": 2300,
+        "image": "../src/assets/icons/accounts.png"
+    }
+]
