@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import locationImg from "../../assets/icons/location2.png"
 import moneyImg from "../../assets/icons/money.png"
 const Job = ({ job }) => {
@@ -7,7 +8,9 @@ const Job = ({ job }) => {
                 <img src={job.image} />
                 <h1>{job.title}</h1>
                 <p className="flex"> <img src={locationImg} /> {job.location}   <img src={moneyImg} /> {job.salary}</p>
-
+                <NavLink to={`/job/${job.id}`}>
+                    <button>View Details</button>
+                </NavLink>
             </div>
         </>
     )

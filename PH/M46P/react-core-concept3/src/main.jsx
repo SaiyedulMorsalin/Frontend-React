@@ -9,6 +9,7 @@ import Blogs from './Components/Blogs/Blogs.jsx'
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs.jsx'
 import Statistics from './Components/Statistics/Statistics.jsx'
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx'
+import JobDetails from './Components/JobDetails/JobDetails.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,12 +24,17 @@ const router = createBrowserRouter([
         element: <Blogs></Blogs>,
       },
       {
-        path: "applied/jobs",
+        path: "/applied/jobs",
         element: <AppliedJobs></AppliedJobs>
       },
       {
-        path: "statistics",
+        path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: "/job/:id",
+        // loader: fetch("https://jsonplaceholder.typicode.com/users"),
+        element: < JobDetails ></JobDetails >
       }
 
     ],
