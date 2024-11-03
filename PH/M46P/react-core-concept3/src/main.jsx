@@ -20,22 +20,22 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: "/blogs",
+        path: "blogs",
         element: <Blogs></Blogs>,
       },
       {
-        path: "/applied/jobs",
+        path: "applied/jobs",
         element: <AppliedJobs></AppliedJobs>
       },
       {
-        path: "/statistics",
+        path: "statistics",
         element: <Statistics></Statistics>
       },
       {
-        path: "/job/:id",
-        // loader: fetch("https://jsonplaceholder.typicode.com/users"),
-        element: < JobDetails ></JobDetails >
-      }
+        element: <JobDetails></JobDetails>,
+        path: ":job/:id",
+        loader: () => fetch("jobs.json"),
+      },
 
     ],
     errorElement: <ErrorPage></ErrorPage>
