@@ -1,31 +1,68 @@
+import { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+
 const Navbar = () => {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
+    const localTheme = localStorage.getItem("theme");
+    document.querySelector("html").setAttribute("data-theme", localTheme);
+    console.log(localTheme);
+  }, [theme]);
+
+  const handleToggle = (e) => {
+    console.log(e.target.checked);
+
+    if (e.target.checked) {
+      setTheme("synthwave");
+    } else {
+      setTheme("light");
+    }
+    console.log(theme);
+  };
+
   return (
     <>
- 
-    <div className="navbar bg-base-100   fixed  z-10 shadow-lg">
+      <div className="navbar bg-base-100   sticky  z-10 shadow-lg">
         <div className="flex-1 ">
-          <a className="btn btn-ghost gap-0 text-2xl">
+          <Link to={"/"} className="btn btn-ghost gap-0 text-2xl">
             {" "}
             <span className="text-primary">Byte</span>
             <span className="text-secondary">Blaze</span>{" "}
-          </a>
+          </Link>
         </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 font-bold">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a className="text-primary">Blogs</a>
-            </li>
-            <li>
-              <a>Bookmarks</a>
-            </li>
+        <div className="flex-none gap-5">
+          <ul className="menu menu-horizontal px-1 font-bold sm:flex gap-5 items-center">
+            <NavLink
+              to={"/"}
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active text-primary " : ""
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to={"/blogs"}
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active text-primary " : ""
+              }
+            >
+              Blogs
+            </NavLink>
+            <NavLink
+              to={"/bookmarks"}
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active text-primary " : ""
+              }
+            >
+              Bookmarks
+            </NavLink>
           </ul>
           <label className="grid cursor-pointer place-items-center">
             <input
               type="checkbox"
-              value="synthwave"
+              onChange={handleToggle}
               className="toggle theme-controller bg-base-content col-span-2 col-start-1 row-start-1"
             />
             <svg
@@ -60,7 +97,6 @@ const Navbar = () => {
           </label>
         </div>
       </div>
-
     </>
   );
 };
